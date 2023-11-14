@@ -1,0 +1,112 @@
+/************************************************************************************************************************************************
+************************************************************************************************************************************************
+************************************************************************
+
+Filename: style.css
+Author: Lizbeth Castaneda
+Copyright: 2023 - All rights reserved
+
+************************************************************************************************************************************************
+************************************************************************************************************************************************
+************************************************************************/
+
+
+/**********************************************************************
+**********************************************************************
+
+==================
+Table of Contents
+==================
+1. HTML Body Styles
+2. Heading Styles
+3. Main Body Styles
+4. Footer Styles
+
+
+
+**********************************************************************
+**********************************************************************/
+
+/****************************  MAIN STYLES  ***********************************/
+
+/**********************
+1. HTML Body Styles
+**********************/
+
+body {
+    background-color: rgba(113, 224, 185, 0.85)!important;
+}
+
+/**********************
+2. Heading Styles
+**********************/
+
+h1 {
+    font-size: 5em;
+    font-weight: 800;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(23, 8, 236);
+    text-align: center;
+    margin: 15px 10px;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(45, 50, 204);
+    text-align: center;
+    margin: 15px 10px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(45, 50, 204);
+    font-family: 'Work Sans', sans-serif;
+}
+
+/**********************
+3. Main Body Styles
+**********************/
+
+p {
+text-align: justify;
+line-height: 1.5;
+font-size: 1.5em;
+color: rgb(81, 76, 70);
+}
+
+.selectable {
+    cursor: pointer;
+}
+
+/**********************
+4. Footer Styles
+**********************/
+
+footer {
+    height:48px;  
+    background-color: rgba(229, 125, 22, 0.845)
+}
+
+footer p {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 6px 0px;
+}
+
+/****************************** MEDIA QUERY ********************/
+/* Media query for medium screens */
+@media screen and (max-width: 768px) {
+    body {
+      background-color:bisque !important; 
+    }
+  }
+
+  /* Media query for small screens */
+@media screen and (max-width: 576px) {
+    body {
+      background-color:silver !important; 
+    }
+  }
